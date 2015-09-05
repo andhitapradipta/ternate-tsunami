@@ -116,15 +116,69 @@
                     <p class="text-muted">Understanding what causes a tsunami and how it works can help you notice early signs of it and help you evaluate your situation better.</p>
                     <a href="#" class="btn btn-primary">Read more</a>
                 </div>
+
+                <!-- PHONE ALERT MOCKUP -->
                 <div class="col-md-4">
                     <span class="fa-stack fa-4x">
-                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-group fa-stack-1x fa-inverse"></i>
+                      <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                      <i class="fa fa-mobile-phone fa-stack-1x fa-inverse"></i>
                     </span>
-                    <h4 class="service-heading">Know what to do in case of tsunami</h4>
-                    <p class="text-muted">Learn what to do if a tsunami warning is issued. Knowing what to do  upfront will save you very valuable time before the hazard.</p>
-                    <a href="#" class="btn btn-primary">Read more</a>
+                    <h4 class="service-heading">Get tsunami alerts to your phone</h4>
+                    <p class="text-muted">
+                      Get notified via a text message if a tsunami alert is issued in Maluku area.
+                      Learning about a hazzard as early as possible can save your life.
+                    </p>
+
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+                      Sign up
+                    </button>
+
+                    <!-- MODAL -->
+                    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                      <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title" id="myModalLabel">Get tsunami alerts to your phone</h4>
+                          </div>
+                          <div class="modal-body">
+                            <p class="alert alert-danger">
+                              <strong class="fa fa-warning"> Note:</strong> this is not a real service, it's just a demo prototype.
+                              <br/>
+                              Check if there are any current alerts on the
+                              <a href="https://inatews.bmkg.go.id/new/terkini.php" target="_blank">
+                                <strong class="text-info">BMKG website</strong>
+                              </a> instead.
+                            </p>
+                            <span class="fa-stack fa-4x">
+                              <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                              <i class="fa fa-mobile-phone fa-stack-1x fa-inverse"></i>
+                            </span>
+                            <p>
+                              Send me a text message if a tsunami alert is issued in Maluku
+                            </p>
+                            <div class="container">
+                              <div class="form-group col-md-4 col-md-offset-1">
+                                <label class="sr-only" for="InputPhone">Phone number</label>
+                                <div class="input-group">
+                                  <div class="input-group-addon">+62</div>
+                                  <input type="tel" pattern='[\-\d]{8,12}' class="form-control input-lg" id="InputPhone" placeholder="XXX-XXX XXX XX">
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal">Subscribe</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- END OF MODAL -->
                 </div>
+                <!-- END OFPHONE ALERT MOCKUP -->
+
                 <div class="col-md-4">
                     <span class="fa-stack fa-4x">
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
