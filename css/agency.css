@@ -740,3 +740,9 @@ body {
 .push-down {
   margin-top: 3em;
 }
+.navbar-default.navbar-dark {
+  background-color: #222;
+}
+#nav-next {
+  font-size: 2em;
+}
