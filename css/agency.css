@@ -749,3 +749,6 @@ body {
 #design-manual-header {
   background-image: url('../img/bamboo-house/exterior.jpg');
 }
+#what-to-do .panel-title {
+  color: #a94442;
+}
